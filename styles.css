@@ -1,0 +1,96 @@
+body{
+  overflow-x: hidden;
+}
+.phone-text-size {
+  font-size: 0.875rem;
+  padding: 0;
+}
+
+.forcingRow {
+  flex-direction: row !important;
+}
+
+.bg-image {
+  background-image: url("./assets/banner.jpg");
+  max-width: 100%;
+
+  height: 512px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+
+.img-about {
+  background-image: url("./assets/sobre-nos.png");
+  width: 48%;
+  height: 28.75rem;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  box-shadow: 0px 12px 32px 20px rgba(55, 55, 55, 0.395) !important;
+}
+
+.bg-contrate {
+  background-image: url("./assets/bg-contrate.png");
+  width: 100%;
+  height: 28.75rem;
+  background-position:  center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-rodape{
+  background-image: url('./assets/bg-rodape.png');
+  width: 100%;
+  height: 18.75rem;
+}
+
+.border-y-5-red{
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+}
+
+.border-b-5-black{
+  border-bottom: 5px solid black;
+
+}
+.bg-red{
+  background-color:red;
+}
+
+.ml-2{
+  margin-left:20px;
+}
+
+
+.border-r-5{
+
+  border-right: 3px solid red;
+}
+
+
+@media (max-width: 62rem) {
+  .mobileMaxWidth {
+    width: 100%;
+  }
+
+  .bg-contrate{
+    object-fit: cover;
+    
+  }
+
+  .bg-image {
+    max-width: 80%;
+    object-fit: contain;
+  }
+
+  .sobre-nos {
+    flex-direction: column !important;
+  }
+
+  .img-about {
+    width: 90%;
+  }
+
+  .border-r-5{
+    border:none;
+  }
+}
