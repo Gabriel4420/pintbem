@@ -15,8 +15,6 @@
 
   <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/Gabriel4420/pintbem?color=56BEB8">
 
-  <img alt="Licença" src="https://img.shields.io/github/license/Gabriel4420/pintbem?color=56BEB8">
-
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/Gabriel4420/pintbem?color=56BEB8" /> -->
 
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/Gabriel4420/pintbem?color=56BEB8" /> -->
@@ -56,9 +54,9 @@ O pintbem é um site estático feito utilizando bootstrap para um teste de uma o
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [HTML5](https://expo.io/)
-- [CSS3](https://nodejs.org/en/)
-- [Bootstrap](https://pt-br.reactjs.org/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 ## :white_check_mark: Pré requisitos ##
 
